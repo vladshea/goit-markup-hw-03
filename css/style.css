@@ -42,7 +42,7 @@ img {
 .container {
   width: 1200px;
   margin: 0 auto;
-  outline: 2px solid red;
+  padding: 0 15px;
 }
 
 body {
@@ -62,11 +62,13 @@ body {
 }
 
 /* -----------------------header-------------------- */
-
+.header {
+  border-bottom: 1px solid #ececec;
+}
 .header-conteiner {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
+  justify-content: center;
 }
 .header-nav {
   display: flex;
@@ -84,8 +86,8 @@ body {
 .header-contact {
   padding-bottom: 32px;
   padding-top: 32px;
-  margin-left: 330px;
-  /* margin-left: auto; эта штука по непонятным мне причинам не работает */
+  margin-left: auto;
+  /* эта штука по непонятным мне причинам не работает */
 }
 
 .logo {
@@ -188,6 +190,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  max-width: 270px;
 }
 
 .wwd-article {
@@ -223,6 +226,7 @@ body {
 .team-article {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .team-list {
@@ -309,9 +313,9 @@ body {
 
 .portfolio-spisok {
   display: flex;
-  align-items: center;
   padding-top: 94px;
   padding-bottom: 50px;
+  justify-content: center;
 }
 
 .portfolio-item:not(:last-child) {
@@ -321,6 +325,7 @@ body {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   padding-bottom: 94px;
   margin-right: -30px;
@@ -328,7 +333,7 @@ body {
 }
 
 .portfolio-list-item {
-  width: calc(100 / 3 -30px);
+  flex-basis: calc(100 / 3 -30px);
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eee;
