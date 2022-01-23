@@ -86,7 +86,7 @@ body {
 .header-contact {
   padding-bottom: 32px;
   padding-top: 32px;
-  margin-left: auto;
+  margin-left: 331px;
   /* эта штука по непонятным мне причинам не работает */
 }
 
@@ -140,9 +140,9 @@ body {
   font-size: 44px;
   line-height: 1.36;
   color: white;
-  max-width: 700px;
-  max-height: 120px;
   text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 .hero-button {
@@ -151,19 +151,20 @@ body {
   font-size: 16px;
   line-height: 1.875;
   color: white;
-  width: 200px;
-  height: 50px;
   border: none;
+  padding: 10px 32px;
 }
 /* -----------------about--------------- */
+
 .about {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 .about-list {
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 0px 15px;
 }
 
 .about-item:not(:last-child) {
@@ -172,6 +173,13 @@ body {
 
 .about-subarticle {
   margin-bottom: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16px / 14px);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .about-text {
@@ -190,9 +198,9 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
-  max-width: 270px;
 }
 
+/* -------------------------wwd---------------------------- */
 .wwd-article {
   font-size: 36px;
   line-height: 1.16;
@@ -200,7 +208,6 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
-/* -------------------------wwd---------------------------- */
 
 .wwd-article {
   margin-bottom: 50px;
@@ -227,6 +234,12 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: clac(42px/36px);
+  letter-spacing: 0.03em;
 }
 
 .team-list {
@@ -308,6 +321,9 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+.address-item:not(:last-child) {
+  margin-bottom: 10px;
+}
 
 /* --------------------------------portfolio----------------------------------- */
 
@@ -346,6 +362,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  padding: 5px 20px;
 }
 
 .active,
