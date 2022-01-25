@@ -143,6 +143,8 @@ body {
   text-align: center;
   margin-left: 250px;
   margin-right: 250px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -153,6 +155,7 @@ body {
   color: white;
   border: none;
   padding: 10px 32px;
+  border-radius: 5px;
 }
 /* -----------------about--------------- */
 
@@ -363,6 +366,9 @@ body {
   font-size: 16px;
   line-height: 1.62;
   padding: 5px 20px;
+  background-color: #f5f4fa;
+  border: none;
+  border-radius: 5px;
 }
 
 .active,
